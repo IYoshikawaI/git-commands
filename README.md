@@ -1,3 +1,3 @@
 # git Commands
 
-here are all the commandsi showed you mouhib!
+here are all the commands i showed you mouhib!
