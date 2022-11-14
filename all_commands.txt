@@ -1,0 +1,13 @@
+git clone <ssh>                                              get your repository from github to local folder
+git init                                                         creates .get folder
+git remote add origin <ssh>                                  tells git which repository in github it will use
+
+git status                                                 shows if files are changed or added and if you can commit them and if everything is ok and doesnt need to add or commit
+git add .							choose the changes you want to later use to commit
+git commit -m "title" -m "description"				save what you selected with add to something like a history
+git push -u origin <branchname>					add your changes and new stuff that you made localy in a branch to github
+git pull origin <branch name>					get the changed that are added in github to keep your local branch updated with what is in github
+git branch							shows you all the branchs available
+git checkout -b <branchname>					create a new branch and switch to it
+git checkout <branchname>					change to another branch
+git branch -d <branchname>					delete a branch
